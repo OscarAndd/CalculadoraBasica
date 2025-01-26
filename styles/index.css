@@ -1,0 +1,108 @@
+body {
+    background-color: #e9edc9;
+    align-content: center;
+    justify-content: center;
+}
+
+h1 {
+    border: solid;
+    color: #0f4c5c;
+    text-align: center;
+    max-width: max-content;
+    margin: auto;
+}
+
+.div {
+    background-color: rgb(173, 173, 240);
+    text-align: center;
+    max-width: 100px;
+    max-height: 40px;
+    margin: auto;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+main {
+    max-height: 400px;
+    max-width: max-content;
+    margin: auto;
+
+}
+
+div {
+    background-color: rgb(235, 191, 191);
+    min-width: max-content;
+    max-height: min-content;
+    margin-bottom: 5px;
+
+}
+
+span {
+    background-color: rgb(184, 224, 224);
+    font-size: 40px;
+    margin: 1px;
+    border: 1px solid;
+    border-radius: 30px;
+    display: inline-block;
+    /*LA PROPIEDAD display: inline-block permite dar valores de altura al margin de los span tag*/
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 90%;
+    /*ME PERMITE CENTRAR EL TEXTO VERTICALMENTE DENTRO DEL SPAN*/
+
+}
+
+div>span:hover {
+    /*AFECTA A LOS SPAN QUE ESTEN DENTRO DE UN div tag*/
+    background-color: rgb(137, 137, 230);
+    cursor: pointer;
+}
+
+input {
+    /*display:inline-block;*/
+
+    text-align: right;
+    font-size: x-large;
+    max-width: 160px;
+    min-width: 160px;
+    background-color: rgb(178, 197, 197);
+
+}
+
+button {
+    border-radius: 40PX;
+    border: solid 1px;
+    min-width: max-content;
+    margin-top: 5px;
+    background-color: rgb(178, 197, 197);
+}
+
+button:hover {
+    /*AFECTA A LOS SPAN QUE ESTEN DENTRO DE UN div tag*/
+    background-color: rgb(137, 137, 230);
+    cursor: pointer;
+}
+
+.delete {
+    margin-right: 5px;
+}
+
+label {
+    color: red;
+    font-size: 1.2em;
+    font-style: italic;
+    max-width: 160px;
+    display: block;
+    overflow: auto;
+    margin-top: 5px;
+
+}
+
+p{
+    text-align: center;
+    font-weight: 100;
+    font-family: cursive;
+}

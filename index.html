@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/index.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <header>
+        <h1>Mi calculadora</h1>
+        <br>
+    </header>
+    <nav>
+        <div class="div">
+            <a href="/acercade.html" target="_blank">acerca de</a>
+        </div>
+        <br>
+    </nav>
+    <main id="main">
+        <div id="miDiv">
+            
+            <span id="l">1</span>
+            <span id="2">2</span>
+            <span id="3">3</span>
+            <span id="x">x</span>
+            <br>
+         
+            <span id="4">4</span>
+            <span id="5">5</span>
+            <span id="6">6</span>
+            <span id="÷">&div;</span>
+            
+            <br>
+            <span id="7">7</span>
+            <span id="8">8</span>
+            <span id="9">9</span>
+            <span id=".">.</span>
+            
+            <br>
+            <span id="-">-</span>
+            <span id="0">0</span>
+            <span id="+">+</span>
+            <span id="=">=</span>
+        </div>
+        <div class="result">
+                            
+        <input type="text"  name="calcular" id="preview"; readonly >
+            <br>
+            <button class="delete" onclick="deletefun()">DELETE</button>
+            <button onclick="deleteallfun()">DELETE ALL</button>
+            <br>
+            <label>Resultado: </label>
+            <label id="result"></label>
+        </div>
+        
+    </main>
+    
+    <script src='scripts/funcionalidad.js'></script> 
+    <script src="scripts/calcularResultado.js"></script>
+</body>
+
+</html>
